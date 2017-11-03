@@ -17,7 +17,7 @@ Portrait View With Negatives
 - Linear Layout used for both portrait and landscape orientations
 - Using Negative Sign before a number to allow for negative citations
 - Brackets append to display but do not function as expected
-- Pressing Decimal twice will ignore the decimal key\
+- Pressing Decimal twice will ignore the decimal key
 
 ## Future Goals
 - Implement proper use case for brackets
