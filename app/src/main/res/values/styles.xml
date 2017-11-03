@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Black">
+        <item name="android:buttonStyle">@style/CustomButton</item>
+        <item name="android:background">@color/BLACK</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="CustomButton" parent="android:Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/roundedbutton</item>
+        <item name="android:backgroundTint">@color/GRAY</item>
+        <!--<item name="android:background">#FFFFFF</item>-->
+        <!--<item name="android:colorButtonNormal">#FFFFFF</item>-->
+    </style>
+    <style name="CustomTextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">68dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/WHITE</item>
+        <item name="android:background">@color/BLACK</item>
+    </style>
+</resources>

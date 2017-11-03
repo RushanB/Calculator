@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height = "match_parent"
+        android:layout_width = "match_parent"
+        android:orientation = "vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="10dp" >
+
+            <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CustomTextView"
+                android:id="@+id/display" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/mode_button"
+                    android:backgroundTint="@color/BLACK"
+                    android:textAlignment="textStart"
+                    android:text="FORMULA"
+                    android:textSize="10sp"
+                    android:onClick="radioButtonClicked"
+
+                    />
+
+            <TextView
+                android:text=""
+                android:id="@+id/display_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/CustomTextView"
+                android:textSize="40sp" />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/button7"
+                android:text="7"
+                style="@style/CustomButton"/>
+            <Button
+                android:id="@+id/button8"
+                android:text="8"
+                style="@style/CustomButton"/>
+            <Button
+                android:id="@+id/button9"
+                android:text="9"
+                style="@style/CustomButton"/>
+            <Button
+                android:id="@+id/plus_button"
+                android:backgroundTint="@color/ORANGE"
+                android:textColor="@color/WHITE"
+                android:text="+"
+                style="@style/CustomButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/button4"
+                android:text="4"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/button5"
+                android:text="5"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/button6"
+                android:text="6"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/minus_button"
+                android:backgroundTint="@color/ORANGE"
+                android:textColor="@color/WHITE"
+                android:text="-"
+                style="@style/CustomButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/button1"
+                android:text="1"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/button2"
+                android:text="2"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/button3"
+                android:text="3"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/multiply_button"
+                android:backgroundTint="@color/ORANGE"
+                android:textColor="@color/WHITE"
+                android:text="x"
+                style="@style/CustomButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/button0"
+                android:layout_weight="0.67"
+                android:text="0"
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/decimal_button"
+                android:text="."
+                style="@style/CustomButton" />
+            <Button
+                android:id="@+id/divide_button"
+                android:backgroundTint="@color/ORANGE"
+                android:textColor="@color/WHITE"
+                android:text="/"
+                style="@style/CustomButton" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/clear_button"
+                android:backgroundTint="@color/ORANGE"
+                android:text="AC"
+                style="@style/CustomButton"
+                />
+            <Button
+                android:id="@+id/open_bracket"
+                android:backgroundTint="@color/ORANGE"
+                android:textSize="15sp"
+                android:text="("
+                style="@style/CustomButton"
+                />
+            <Button
+                android:id="@+id/close_bracket"
+                android:backgroundTint="@color/ORANGE"
+                android:textSize="15sp"
+                android:text=")"
+                style="@style/CustomButton"
+                />
+
+            <Button
+                android:id="@+id/equals_button"
+                android:backgroundTint="@color/ORANGE"
+                android:textColor="@color/WHITE"
+                android:text="="
+                style="@style/CustomButton" />
+        </LinearLayout>
+
+    </LinearLayout>
+</TableLayout>
